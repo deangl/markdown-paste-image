@@ -16,7 +16,7 @@
 
 (defun save-clipboard-to-image (image-name)
   "save clipboard to image"
-  (if (not (file-directory-p clipboad-to-image-prefix)) (make-directory clipboad-to-image-prefix) )
+  (if (not (file-directory-p clipboard-to-image-prefix)) (make-directory clipboard-to-image-prefix) )
   (let (
         (image-full-name
          (format
